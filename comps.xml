@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//CentOS//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+	<id>ansible</id>
+	<name>ansible</name>
+	<name xml:lang="en_GB">epc</name>
+	<description>ansible installation.</description>
+	<default>false</default>
+	<uservisible>false</uservisible>
+	<packagelist>
+		<packagereq type="mandatory">ansible</packagereq>
+		<packagereq type="mandatory">libyaml</packagereq>
+		<packagereq type="mandatory">python2-cryptography</packagereq>
+		<packagereq type="mandatory">python2-jmespath</packagereq>
+		<packagereq type="mandatory">python2-pyasn1</packagereq>
+		<packagereq type="mandatory">python-babel</packagereq>
+		<packagereq type="mandatory">python-backports</packagereq>
+		<packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
+		<packagereq type="mandatory">python-cffi</packagereq>
+		<packagereq type="mandatory">python-enum34</packagereq>
+		<packagereq type="mandatory">python-httplib2</packagereq>
+		<packagereq type="mandatory">python-idna</packagereq>
+		<packagereq type="mandatory">python-ipaddress</packagereq>
+		<packagereq type="mandatory">python-jinja2</packagereq>
+		<packagereq type="mandatory">python-markupsafe</packagereq>
+		<packagereq type="mandatory">python-paramiko</packagereq>
+		<packagereq type="mandatory">python-ply</packagereq>
+		<packagereq type="mandatory">python-pycparser</packagereq>
+		<packagereq type="mandatory">python-setuptools</packagereq>
+		<packagereq type="mandatory">python-six</packagereq>
+		<packagereq type="mandatory">PyYAML</packagereq>
+		<packagereq type="mandatory">sshpass</packagereq>
+	</packagelist>
+  </group>
+</comps>
